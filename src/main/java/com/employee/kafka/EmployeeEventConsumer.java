@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.Properties;
 
 public class EmployeeEventConsumer {
-
     private final String bootstrapServers;
     private final String groupId;
     private final String topic;

@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class EmployeeEventProducer {
-
     private final KafkaTemplate<String, String> kafkaTemplate;
 
     @Autowired
